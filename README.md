@@ -74,12 +74,6 @@ Available options include `'Desktop Firefox'`, `'Desktop Safari'`, `'iPhone'`, a
 - `README.md` - Documentation
 - `LICENSE` - MIT License
 
-## Important Notes
-
-⚠️ **Terms of Service**
-- This tool uses browser automation, which may violate TikTok's Terms of Service
-- Use at your own risk
-- Account suspension or termination is possible
 
 🔒 **Security**
 - The `cookies.json` file contains your authenticated session
@@ -127,7 +121,14 @@ Provide a username when running the script:
 ```bash
 node unfollow.js <username>
 ```
+### "--Tip--"
+To skip login process manuay login into the account using a real browser use an extension like editthiscookie to export the cookies then create a cookies.json file and set cookies key = your array of exported cookies
+```
+{
+    "cookies": []
+}
 
+```
 ### "Invalid username format" Error
 Usernames must contain only letters, numbers, dots, and underscores.
 
