@@ -1,14 +1,26 @@
 {
-  "name": "Tiktok unfollower",
+  "name": "tiktok-bulk-unfollower",
   "version": "1.0.0",
+  "description": "Automated tool to bulk unfollow accounts from a TikTok user's following list using Playwright stealth browser automation.",
+  "main": "unfollow.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node supervisor.js",
+    "unfollow": "node supervisor.js"
   },
-  "keywords": [],
+  "keywords": [
+    "playwright",
+    "tiktok",
+    "unfollow",
+    "stealth",
+    "automation"
+  ],
   "author": "",
   "license": "MIT",
-  "description": "",
-  "devDependencies": {
-    "playwright": "^1.53.1"
+  "dependencies": {
+    "fingerprint-generator": "^2.1.88",
+    "fingerprint-injector": "^2.1.88",
+    "playwright": "^1.53.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }

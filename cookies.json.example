@@ -1,0 +1,12 @@
+{
+  "cookies": [
+    {
+      "name": "sessionid",
+      "value": "YOUR_TIKTOK_SESSION_ID",
+      "domain": ".tiktok.com",
+      "path": "/",
+      "secure": true,
+      "httpOnly": true
+    }
+  ]
+}
